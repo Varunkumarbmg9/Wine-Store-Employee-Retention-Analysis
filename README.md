@@ -5,7 +5,6 @@ This project aims to analyze and predict employee retention for a fictitious win
 
 ## Project Structure
 - **Final_Wine_Store_Employee_Retention_Analysis.ipynb**: The Jupyter notebook containing all the code and analysis steps.
-- **Datasets**: (Optional) Include a brief description of any datasets used if they are also uploaded to the repository.
 
 ## Analysis Steps
 1. **Data Cleaning**: Handling missing values, removing irrelevant columns, and ensuring data types are appropriate.
@@ -16,7 +15,16 @@ This project aims to analyze and predict employee retention for a fictitious win
 6. **Evaluation**: Assessing model performance using metrics such as accuracy, precision, recall, and F1-score.
 
 ## Key Findings
-- (Summarize key insights from your analysis, such as which factors are most influential in predicting employee retention.)
+- The analysis conducted on the wine store's employee data has yielded several significant insights:
+
+1. **Key Factors Influencing Retention**:
+The most critical features influencing employee retention were identified as satisfaction_level, years_at_company and last_performance_evaluation.
+High satisfaction_level and longer years_at_company are associated with higher retention rates, whereas low satisfaction_level correlates with higher turnover.
+2. **Model Performance**:
+The Random Forest model, after fine-tuning, achieved the highest performance metrics with an accuracy of 98.49%, a precision of 98.93%, a recall of 94.86%, and a ROC-AUC score of 97.26%.
+The Gradient Boosting model also performed well, with slightly lower but still robust metrics.
+3. **Predictive Capabilities**:
+The models can accurately predict which employees are at risk of leaving, enabling the wine store to take proactive measures to retain valuable staff.
 
 ## Tools and Libraries Used
 - **Python**: Programming language used for the analysis.
